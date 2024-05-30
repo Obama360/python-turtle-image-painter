@@ -10,7 +10,7 @@ def PaintImage(image, scale, turtle):
     arr = np.array(img)
     progressrn = 0
     turtle.screen.colormode(255)
-    turtle.pensize(4)
+    turtle.pensize(scale)
     
     print("Image size: {}, {}".format(len(arr), len(arr[0])))
     
